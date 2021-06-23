@@ -82,16 +82,16 @@ public class PersonDetails {
 	
 	
 	/** @return Person details which was given  by user */
-	public String toString(){
-        return "Person: "+firstName+" "+lastName+"/n"+
-        		" First Name : "+firstName+"/n"+
-        		" Last Name : "+lastName+"/n"+
-                " Address :"+address+"/n"+
-                " City :"+city+"/n"+
-                " State :"+state+"/n"+
-                " Zip Code :"+zipCode+"/n"+
-                " Phone Number :"+phoneNumber+"/n"+
-                " E-mail :"+email+"/n";
+	public String getDetails(){
+        return "\nPerson Details - "+firstName+" "+lastName+"\n"+
+        		"  First Name   : "+firstName+"\n"+
+        		"  Last Name    : "+lastName+"\n"+
+                "  Address      : "+address+"\n"+
+                "  City         : "+city+"\n"+
+                "  State        : "+state+"\n"+
+                "  Zip Code     : "+zipCode+"\n"+
+                "  Phone Number : "+phoneNumber+"\n"+
+                "  E-mail ID    : "+email+"\n";
 	}
 	
 }
